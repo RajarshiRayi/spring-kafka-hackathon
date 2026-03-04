@@ -1,1 +1,42 @@
+# IDE
 /.idea/
+/.vscode/
+*.iml
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+*~
+
+# Maven
+target/
+pom.xml.tag
+pom.releaseBackup
+pom.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle (if ever used)
+.gradle/
+build/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / local config
+.env
+.env.local
+*.local.yml
